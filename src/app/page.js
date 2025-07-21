@@ -52,7 +52,6 @@ export default function Home() {
   }, [showVideo]);
 
   // Carousel state for single card
-  const [carouselIndex, setCarouselIndex] = useState(0);
   const carouselCards = [
     { img: "/IMG_1.png", text: "Khaamoshiyon mein bhi pyaar tha... 🥀" },
     { img: "/IMG_5.png", text: "Woh aakhri shaam...hamesha yaad rahegi. 🌇💔"},
